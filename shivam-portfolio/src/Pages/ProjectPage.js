@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import ProjectData from "../StaticProjectData/staticData";
 import { PiCirclesThreeFill } from "react-icons/pi";
+import { IoArrowBackCircleSharp } from "react-icons/io5";
 import Footer from "../Components/Footer";
 import Crousal from "../Components/Crousal";
 import { motion } from "framer-motion";
@@ -10,10 +11,19 @@ const ProjectPage = () => {
     const { pid } = useParams();
     const Project_Data = ProjectData[pid];
 
+    const handleBack = () => {
+        window.history.back();
+    };
 
     return (
-        <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
             <div className=" bg-[#2F3645] bg-opacity-20 p-6 m-6 rounded-md">
+                <div className="flex justify-between items-center">
+                    <div className="flex items-center gap-2 cursor-pointer" onClick={handleBack}>
+                        <IoArrowBackCircleSharp className="text-[#FFBF78] text-2xl" />
+                        <h1 className="text-[#FFBF78] text-[1.5rem] md:text-[1.7rem] font-light">Back</h1>
+                    </div>
+                </div>
                 <div className="container mx-auto">
                     <h1 className="text-[#E7F0DC] text-[2rem] md:text-[2.5rem] font-light flex items-center">
                         Projects
