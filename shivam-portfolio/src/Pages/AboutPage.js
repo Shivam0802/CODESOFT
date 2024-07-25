@@ -5,8 +5,17 @@ import About from "../Components/About";
 import { PiCirclesThreeFill } from "react-icons/pi";
 import { FaGraduationCap } from "react-icons/fa6";
 import { motion } from "framer-motion";
+import { saveAs } from "file-saver";
 
 function AboutPage() {
+
+    const downloadResume = () => {
+        saveAs(
+            "/Assets/Shivam.pdf",
+            "Shivam_Resume.pdf"
+        );
+    }   
+
     return (
         <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
             <div className="relative">
@@ -38,7 +47,7 @@ function AboutPage() {
                     />
                 </div>
                 <div className="absolute bottom-4 left-0 w-full text-center">
-                    <button className="text-black bg-[#F7E7DC] px-4 py-2 mt-4 rounded-full hover:bg-[#F7E7DC] hover:text-black duration-300">
+                    <button onClick={downloadResume} className="text-black bg-[#F7E7DC] px-4 py-2 mt-4 rounded-full hover:bg-[#F7E7DC] hover:text-black duration-300">
                         Download Resume
                     </button>
                 </div>
