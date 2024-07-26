@@ -31,7 +31,7 @@ function About() {
             <div className="flex flex-col md:flex-row gap-4 md:gap-10 justify-between items-center mb-4">
                 <div className="flex flex-col items-center w-full md:w-[60%]">
                     <p className="text-[1.2rem] md:text-[1.4rem] text-gray-200 font-light text-justify">
-                        At BlogSphere, we believe everyone has a story to tell. Our platform is dedicated to providing a space where bloggers can share their thoughts, connect with like-minded individuals, and inspire others.
+                        At Blogedium, we believe everyone has a story to tell. Our platform is dedicated to providing a space where bloggers can share their thoughts, connect with like-minded individuals, and inspire others.
                         <br />Founded with the mission to empower voices from all walks of life, BlogSphere is a hub for creativity, knowledge, and community. Whether you're a seasoned blogger or just starting, we welcome you to share your unique perspective.
                     </p>
                 </div>

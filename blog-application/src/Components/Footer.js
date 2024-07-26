@@ -13,10 +13,10 @@ function Footer() {
                 <div className="flex flex-col w-full md:w-[65%] items-center md:items-start">
                     <img src="/Assets/Logo.png" alt="Logo" className="w-[15rem] mx-2 mb-4 md:mb-0" />
                     <h1 className="text-[2rem] text-white font-medium mx-6">
-                        BlogSphere
+                        Blogedium
                     </h1>
                     <p className="text-white text-[1rem] mx-6 text-center md:text-left">
-                        At BlogSphere, explore diverse topics, share your thoughts, and be part of a vibrant community of bloggers.
+                        At Blogedium, explore diverse topics, share your thoughts, and be part of a vibrant community of bloggers.
                     </p>
                     <div className="flex flex-col gap-4 mx-6 mt-10 items-center md:items-start">
                         <h1 className="text-[1.5rem] text-white font-medium">
@@ -87,7 +87,7 @@ function Footer() {
                         <div className="flex flex-row gap-2 mt-4">
                             <MdEmail size={23} className="text-[#C5E898]" />
                             <p className="text-white text-[1rem]">
-                                blogSphere12@gmail.org
+                                blogedium12@gmail.org
                             </p>
                         </div>
                         <div className="flex flex-row gap-2">

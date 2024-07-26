@@ -10,11 +10,11 @@ function Faq() {
 
         const faqs = [
             {
-                question: "What is BlogSphere?",
-                answer: "BlogSphere is a platform where you can read and share diverse topics, thoughts, and stories. It’s a vibrant community of bloggers from around the world."
+                question: "What is Blogedium?",
+                answer: "Blogedium is a platform where you can read and share diverse topics, thoughts, and stories. It’s a vibrant community of bloggers from around the world."
             },
             {
-                question: "How do I publish a blog on BlogSphere?",
+                question: "How do I publish a blog on Blogedium?",
                 answer: "After logging in, click the \"Publish your Blog\" button on the homepage. A modal will appear where you can write and submit your blog."
             },
             {

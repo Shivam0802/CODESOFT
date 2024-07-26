@@ -105,11 +105,11 @@ function HomePage() {
                 <div className="absolute top-1/2 left-1/3 transform -translate-x-1/3 -translate-y-[40%] text-white">
                     <h1 className="text-[2rem] md:text-[3.5rem] font-medium">
                         Welcome to <br />
-                        <strong className="text-[#E0A75E] text-[3rem] md:text-[5rem] font-medium" style={{ lineHeight: '1.3rem' }}>BlogSphere</strong>.
+                        <strong className="text-[#E0A75E] text-[3rem] md:text-[5rem] font-medium" style={{ lineHeight: '1.3rem' }}>Blogedium</strong>.
                     </h1>
                     <p className="text-[1rem] md:text-[1.5rem] font-light md:mr-80 mt-4 text-justify">
-                        Hello and welcome to BlogSphere! 🖐🏼  <br />
-                        At BlogSphere, we celebrate every story and every voice. Explore diverse topics, share your thoughts, and be part of a vibrant community of bloggers.
+                        Hello and welcome to Blogedium! 🖐🏼  <br />
+                        At Blogedium, we celebrate every story and every voice. Explore diverse topics, share your thoughts, and be part of a vibrant community of bloggers.
                     </p>
                     <div className="flex flex-row items-center gap-4 mt-4 px-4 md:px-0 mb-4">
                         <Link to="/publish">
@@ -208,7 +208,7 @@ function HomePage() {
                         </h2>
                         <p className="w-full mb-8 text-white text-light">
                             <span className="text-[#EEF5FF] text-[1.3rem] text-normal">Have questions?</span>
-                            <br /> We have answers! Check out our Frequently Asked Questions to know more about BlogSphere.
+                            <br /> We have answers! Check out our Frequently Asked Questions to know more about Blogedium.
                         </p>
                     </div>
                     <div className="md:w-[60%] mt-2">
